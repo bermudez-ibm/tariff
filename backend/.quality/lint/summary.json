@@ -1,0 +1,779 @@
+{
+  "status": "issues_found",
+  "target_path": "/repos/tariff/backend",
+  "requested_linters": [
+    "ruff"
+  ],
+  "applicable_linters": [
+    "ruff"
+  ],
+  "selected_linters": [
+    "ruff"
+  ],
+  "message": "All findings, including any findings omitted from the inline response, are available in the report files listed under `report_paths`.",
+  "summary": {
+    "errors": 261,
+    "warnings": 0,
+    "total_findings": 261,
+    "inline_findings": 100,
+    "remaining_findings": 161,
+    "linters_run": 1,
+    "linters_with_issues": 1,
+    "linters_unavailable": 0
+  },
+  "by_tool": {
+    "ruff": {
+      "status": "issues_found",
+      "errors": 261,
+      "warnings": 0,
+      "total_findings": 261,
+      "inline_findings": 100,
+      "remaining_findings": 161,
+      "files": [
+        {
+          "path": "/repos/tariff/backend/app/database.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/main.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 3,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/middleware/auth.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 23,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 29,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 34,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 40,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 43,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 59,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 62,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 68,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 74,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 88,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/middleware/correlation_id.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/models/__init__.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/models/agreement.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "`sqlalchemy.Text` imported but unused",
+              "line": 2,
+              "column": 58,
+              "code": "F401"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 13,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 21,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 30,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 36,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/models/alert.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 13,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 23,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 31,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 38,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/models/audit.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "`sqlalchemy.Text` imported but unused",
+              "line": 2,
+              "column": 49,
+              "code": "F401"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 9,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/models/base.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 18,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/models/compliance.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 10,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 18,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 26,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 34,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/models/policy_event.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 13,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 29,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 39,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 45,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 53,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 60,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 68,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 75,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/models/recommendation.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "`sqlalchemy.DateTime` imported but unused",
+              "line": 2,
+              "column": 76,
+              "code": "F401"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 10,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 18,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 26,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 31,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/models/reference.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "`sqlalchemy.Text` imported but unused",
+              "line": 2,
+              "column": 58,
+              "code": "F401"
+            },
+            {
+              "msg": "`sqlalchemy.DECIMAL` imported but unused",
+              "line": 2,
+              "column": 64,
+              "code": "F401"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 9,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 18,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 28,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 40,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 49,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 60,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 69,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 82,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/models/scenario.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 10,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 18,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 26,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 36,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 49,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 55,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/models/user.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 18,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 23,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 31,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 34,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/routers/__init__.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/routers/agreements.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/routers/alerts.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/routers/auth.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 47,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 54,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 68,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 75,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 78,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 81,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 85,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 88,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 97,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/routers/compliance.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/routers/dashboard.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/routers/policy_events.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/routers/recommendations.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/routers/scenarios.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/schemas/__init__.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/schemas/agreement.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "`typing.Optional` imported but unused",
+              "line": 4,
+              "column": 26,
+              "code": "F401"
+            },
+            {
+              "msg": "`pydantic.Field` imported but unused",
+              "line": 5,
+              "column": 33,
+              "code": "F401"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 15,
+              "column": 1,
+              "code": "W293"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 31,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        },
+        {
+          "path": "/repos/tariff/backend/app/schemas/alert.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "Blank line contains whitespace",
+              "line": 15,
+              "column": 1,
+              "code": "W293"
+            }
+          ]
+        }
+      ],
+      "report_path": "/repos/tariff/backend/.quality/lint/ruff-result.json",
+      "truncated": true
+    }
+  },
+  "report_dir": "/repos/tariff/backend/.quality/lint",
+  "report_paths": {
+    "summary": "/repos/tariff/backend/.quality/lint/summary.json",
+    "ruff": "/repos/tariff/backend/.quality/lint/ruff-result.json"
+  },
+  "truncated": true
+}

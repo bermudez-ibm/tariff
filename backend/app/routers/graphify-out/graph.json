@@ -1,0 +1,3181 @@
+{
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "nodes": [
+    {
+      "id": "init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "agreements",
+      "label": "agreements.py",
+      "file_type": "code",
+      "source_file": "agreements.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "agreements_get_agreement_service",
+      "label": "get_agreement_service()",
+      "file_type": "code",
+      "source_file": "agreements.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "agreements_py_session",
+      "label": "Session",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "tradeagreementservice",
+      "label": "TradeAgreementService",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "agreements_get_scenario_agreement_evaluations",
+      "label": "get_scenario_agreement_evaluations()",
+      "file_type": "code",
+      "source_file": "agreements.py",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "agreements_py_user",
+      "label": "User",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "agreements_get_agreement_evaluation",
+      "label": "get_agreement_evaluation()",
+      "file_type": "code",
+      "source_file": "agreements.py",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "agreements_rationale_1",
+      "label": "Trade agreements router.",
+      "file_type": "rationale",
+      "source_file": "agreements.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "agreements_rationale_17",
+      "label": "Dependency injection for TradeAgreementService.",
+      "file_type": "rationale",
+      "source_file": "agreements.py",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "agreements_rationale_30",
+      "label": "Get agreement evaluations for a scenario result.     Implements REQ-API-004: Tra",
+      "file_type": "rationale",
+      "source_file": "agreements.py",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "agreements_rationale_51",
+      "label": "Get single agreement evaluation with evidence gaps.     Implements REQ-API-004:",
+      "file_type": "rationale",
+      "source_file": "agreements.py",
+      "source_location": "L51",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts",
+      "label": "alerts.py",
+      "file_type": "code",
+      "source_file": "alerts.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_get_alert_service",
+      "label": "get_alert_service()",
+      "file_type": "code",
+      "source_file": "alerts.py",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_py_session",
+      "label": "Session",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "alertservice",
+      "label": "AlertService",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_list_alerts",
+      "label": "list_alerts()",
+      "file_type": "code",
+      "source_file": "alerts.py",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_get_alert",
+      "label": "get_alert()",
+      "file_type": "code",
+      "source_file": "alerts.py",
+      "source_location": "L50",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_acknowledge_alert",
+      "label": "acknowledge_alert()",
+      "file_type": "code",
+      "source_file": "alerts.py",
+      "source_location": "L68",
+      "_origin": "ast"
+    },
+    {
+      "id": "acknowledgealertrequest",
+      "label": "AcknowledgeAlertRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_assign_alert",
+      "label": "assign_alert()",
+      "file_type": "code",
+      "source_file": "alerts.py",
+      "source_location": "L86",
+      "_origin": "ast"
+    },
+    {
+      "id": "assignalertrequest",
+      "label": "AssignAlertRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_escalate_alert",
+      "label": "escalate_alert()",
+      "file_type": "code",
+      "source_file": "alerts.py",
+      "source_location": "L103",
+      "_origin": "ast"
+    },
+    {
+      "id": "escalatealertrequest",
+      "label": "EscalateAlertRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_resolve_alert",
+      "label": "resolve_alert()",
+      "file_type": "code",
+      "source_file": "alerts.py",
+      "source_location": "L121",
+      "_origin": "ast"
+    },
+    {
+      "id": "resolvealertrequest",
+      "label": "ResolveAlertRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_rationale_21",
+      "label": "Dependency injection for AlertService.",
+      "file_type": "rationale",
+      "source_file": "alerts.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_rationale_35",
+      "label": "List alerts with filters and pagination.     Implements REQ-API-006: Alert list",
+      "file_type": "rationale",
+      "source_file": "alerts.py",
+      "source_location": "L35",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_rationale_54",
+      "label": "Get alert detail with transitions.     Implements REQ-API-006: Alert detail endp",
+      "file_type": "rationale",
+      "source_file": "alerts.py",
+      "source_location": "L54",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_rationale_73",
+      "label": "Acknowledge alert.     Implements REQ-API-006: Alert acknowledgement endpoint.",
+      "file_type": "rationale",
+      "source_file": "alerts.py",
+      "source_location": "L73",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_rationale_91",
+      "label": "Assign or reassign alert to owner.     Implements REQ-API-006: Alert assignment",
+      "file_type": "rationale",
+      "source_file": "alerts.py",
+      "source_location": "L91",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_rationale_108",
+      "label": "Escalate alert to higher scope.     Implements REQ-API-006: Alert escalation end",
+      "file_type": "rationale",
+      "source_file": "alerts.py",
+      "source_location": "L108",
+      "_origin": "ast"
+    },
+    {
+      "id": "alerts_rationale_126",
+      "label": "Resolve alert with outcome summary.     Implements REQ-API-006: Alert resolution",
+      "file_type": "rationale",
+      "source_file": "alerts.py",
+      "source_location": "L126",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth",
+      "label": "auth.py",
+      "file_type": "code",
+      "source_file": "auth.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_loginrequest",
+      "label": "LoginRequest",
+      "file_type": "code",
+      "source_file": "auth.py",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "basemodel",
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_userresponse",
+      "label": "UserResponse",
+      "file_type": "code",
+      "source_file": "auth.py",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_config",
+      "label": "Config",
+      "file_type": "code",
+      "source_file": "auth.py",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_loginresponse",
+      "label": "LoginResponse",
+      "file_type": "code",
+      "source_file": "auth.py",
+      "source_location": "L37",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_create_access_token",
+      "label": "create_access_token()",
+      "file_type": "code",
+      "source_file": "auth.py",
+      "source_location": "L43",
+      "_origin": "ast"
+    },
+    {
+      "id": "timedelta",
+      "label": "timedelta",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_verify_password",
+      "label": "verify_password()",
+      "file_type": "code",
+      "source_file": "auth.py",
+      "source_location": "L59",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_login",
+      "label": "login()",
+      "file_type": "code",
+      "source_file": "auth.py",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_py_session",
+      "label": "Session",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_rationale_1",
+      "label": "Authentication router for JWT token generation.",
+      "file_type": "rationale",
+      "source_file": "auth.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_rationale_21",
+      "label": "Login request matching shared_config.json field names.",
+      "file_type": "rationale",
+      "source_file": "auth.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_rationale_38",
+      "label": "Login response matching shared_config.json structure.",
+      "file_type": "rationale",
+      "source_file": "auth.py",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_rationale_44",
+      "label": "Create JWT access token with user ID as string for round-trip safety.",
+      "file_type": "rationale",
+      "source_file": "auth.py",
+      "source_location": "L44",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_rationale_60",
+      "label": "Verify password using bcrypt.",
+      "file_type": "rationale",
+      "source_file": "auth.py",
+      "source_location": "L60",
+      "_origin": "ast"
+    },
+    {
+      "id": "auth_rationale_66",
+      "label": "Authenticate user and return JWT token.          REQ-AUTH-001: JWT authenticatio",
+      "file_type": "rationale",
+      "source_file": "auth.py",
+      "source_location": "L66",
+      "_origin": "ast"
+    },
+    {
+      "id": "compliance",
+      "label": "compliance.py",
+      "file_type": "code",
+      "source_file": "compliance.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "compliance_get_compliance_service",
+      "label": "get_compliance_service()",
+      "file_type": "code",
+      "source_file": "compliance.py",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "compliance_py_session",
+      "label": "Session",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "complianceworkflowservice",
+      "label": "ComplianceWorkflowService",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "compliance_list_compliance_reviews",
+      "label": "list_compliance_reviews()",
+      "file_type": "code",
+      "source_file": "compliance.py",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "compliance_create_compliance_review",
+      "label": "create_compliance_review()",
+      "file_type": "code",
+      "source_file": "compliance.py",
+      "source_location": "L57",
+      "_origin": "ast"
+    },
+    {
+      "id": "createcompliancereviewrequest",
+      "label": "CreateComplianceReviewRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "compliance_transition_review_state",
+      "label": "transition_review_state()",
+      "file_type": "code",
+      "source_file": "compliance.py",
+      "source_location": "L75",
+      "_origin": "ast"
+    },
+    {
+      "id": "transitionreviewstaterequest",
+      "label": "TransitionReviewStateRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "compliance_get_compliance_review",
+      "label": "get_compliance_review()",
+      "file_type": "code",
+      "source_file": "compliance.py",
+      "source_location": "L99",
+      "_origin": "ast"
+    },
+    {
+      "id": "compliance_rationale_19",
+      "label": "Dependency injection for ComplianceWorkflowService.",
+      "file_type": "rationale",
+      "source_file": "compliance.py",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "compliance_rationale_31",
+      "label": "List compliance reviews with filters and pagination.     Implements REQ-API-008:",
+      "file_type": "rationale",
+      "source_file": "compliance.py",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "compliance_rationale_61",
+      "label": "Create compliance review for a subject.     Implements REQ-API-008: Compliance r",
+      "file_type": "rationale",
+      "source_file": "compliance.py",
+      "source_location": "L61",
+      "_origin": "ast"
+    },
+    {
+      "id": "compliance_rationale_80",
+      "label": "Transition compliance review state.     Implements REQ-API-008: Review state tra",
+      "file_type": "rationale",
+      "source_file": "compliance.py",
+      "source_location": "L80",
+      "_origin": "ast"
+    },
+    {
+      "id": "compliance_rationale_103",
+      "label": "Get compliance review detail with risk flags.     Implements REQ-API-008: Compli",
+      "file_type": "rationale",
+      "source_file": "compliance.py",
+      "source_location": "L103",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard",
+      "label": "dashboard.py",
+      "file_type": "code",
+      "source_file": "dashboard.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_get_analytics_service",
+      "label": "get_analytics_service()",
+      "file_type": "code",
+      "source_file": "dashboard.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_py_session",
+      "label": "Session",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "analyticsservice",
+      "label": "AnalyticsService",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_get_exposure_summary",
+      "label": "get_exposure_summary()",
+      "file_type": "code",
+      "source_file": "dashboard.py",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_get_trend_data",
+      "label": "get_trend_data()",
+      "file_type": "code",
+      "source_file": "dashboard.py",
+      "source_location": "L37",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_get_concentration_view",
+      "label": "get_concentration_view()",
+      "file_type": "code",
+      "source_file": "dashboard.py",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_rationale_17",
+      "label": "Dependency injection for AnalyticsService.",
+      "file_type": "rationale",
+      "source_file": "dashboard.py",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_rationale_26",
+      "label": "Get exposure summary for dashboard.     Implements REQ-API-007: Dashboard exposu",
+      "file_type": "rationale",
+      "source_file": "dashboard.py",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_rationale_42",
+      "label": "Get trend data over time for a dimension.     Implements REQ-API-007: Dashboard",
+      "file_type": "rationale",
+      "source_file": "dashboard.py",
+      "source_location": "L42",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_rationale_57",
+      "label": "Get concentration view showing top exposures.     Implements REQ-API-007: Dashbo",
+      "file_type": "rationale",
+      "source_file": "dashboard.py",
+      "source_location": "L57",
+      "_origin": "ast"
+    },
+    {
+      "id": "policy_events",
+      "label": "policy_events.py",
+      "file_type": "code",
+      "source_file": "policy_events.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "policy_events_get_monitoring_service",
+      "label": "get_monitoring_service()",
+      "file_type": "code",
+      "source_file": "policy_events.py",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "policy_events_py_session",
+      "label": "Session",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "monitoringservice",
+      "label": "MonitoringService",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "policy_events_ingest_policy_event",
+      "label": "ingest_policy_event()",
+      "file_type": "code",
+      "source_file": "policy_events.py",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "ingestpolicyeventrequest",
+      "label": "IngestPolicyEventRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "policy_events_py_user",
+      "label": "User",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "policy_events_list_policy_events",
+      "label": "list_policy_events()",
+      "file_type": "code",
+      "source_file": "policy_events.py",
+      "source_location": "L44",
+      "_origin": "ast"
+    },
+    {
+      "id": "policy_events_get_policy_event",
+      "label": "get_policy_event()",
+      "file_type": "code",
+      "source_file": "policy_events.py",
+      "source_location": "L67",
+      "_origin": "ast"
+    },
+    {
+      "id": "policy_events_rationale_1",
+      "label": "Policy events router.",
+      "file_type": "rationale",
+      "source_file": "policy_events.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "policy_events_rationale_21",
+      "label": "Dependency injection for MonitoringService.",
+      "file_type": "rationale",
+      "source_file": "policy_events.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "policy_events_rationale_31",
+      "label": "Ingest policy event from external source (idempotent).     Implements REQ-API-00",
+      "file_type": "rationale",
+      "source_file": "policy_events.py",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "policy_events_rationale_52",
+      "label": "List policy events with pagination and filters.     Implements REQ-API-002: List",
+      "file_type": "rationale",
+      "source_file": "policy_events.py",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "policy_events_rationale_72",
+      "label": "Get policy event detail with deltas, associations, and materiality.     Implemen",
+      "file_type": "rationale",
+      "source_file": "policy_events.py",
+      "source_location": "L72",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendations",
+      "label": "recommendations.py",
+      "file_type": "code",
+      "source_file": "recommendations.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendations_get_recommendation_service",
+      "label": "get_recommendation_service()",
+      "file_type": "code",
+      "source_file": "recommendations.py",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendations_py_session",
+      "label": "Session",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendationservice",
+      "label": "RecommendationService",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendations_generate_recommendations",
+      "label": "generate_recommendations()",
+      "file_type": "code",
+      "source_file": "recommendations.py",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "generaterecommendationsrequest",
+      "label": "GenerateRecommendationsRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendations_py_user",
+      "label": "User",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendations_get_recommendation",
+      "label": "get_recommendation()",
+      "file_type": "code",
+      "source_file": "recommendations.py",
+      "source_location": "L50",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendations_disposition_recommendation",
+      "label": "disposition_recommendation()",
+      "file_type": "code",
+      "source_file": "recommendations.py",
+      "source_location": "L69",
+      "_origin": "ast"
+    },
+    {
+      "id": "dispositionrecommendationrequest",
+      "label": "DispositionRecommendationRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendations_rationale_1",
+      "label": "Recommendations router.",
+      "file_type": "rationale",
+      "source_file": "recommendations.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendations_rationale_21",
+      "label": "Dependency injection for RecommendationService.",
+      "file_type": "rationale",
+      "source_file": "recommendations.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendations_rationale_31",
+      "label": "Generate mitigation recommendations for a scenario.     Implements REQ-API-005:",
+      "file_type": "rationale",
+      "source_file": "recommendations.py",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendations_rationale_55",
+      "label": "Get recommendation detail with rationale and factors.     Implements REQ-API-005",
+      "file_type": "rationale",
+      "source_file": "recommendations.py",
+      "source_location": "L55",
+      "_origin": "ast"
+    },
+    {
+      "id": "recommendations_rationale_75",
+      "label": "Apply disposition to a recommendation.     Implements REQ-API-005: Recommendatio",
+      "file_type": "rationale",
+      "source_file": "recommendations.py",
+      "source_location": "L75",
+      "_origin": "ast"
+    },
+    {
+      "id": "scenarios",
+      "label": "scenarios.py",
+      "file_type": "code",
+      "source_file": "scenarios.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scenarios_get_financial_service",
+      "label": "get_financial_service()",
+      "file_type": "code",
+      "source_file": "scenarios.py",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "scenarios_py_session",
+      "label": "Session",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "financialanalysisservice",
+      "label": "FinancialAnalysisService",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "scenarios_analyze_scenario",
+      "label": "analyze_scenario()",
+      "file_type": "code",
+      "source_file": "scenarios.py",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "scenarioanalysisrequest",
+      "label": "ScenarioAnalysisRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "scenarios_py_user",
+      "label": "User",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "scenarios_get_scenario",
+      "label": "get_scenario()",
+      "file_type": "code",
+      "source_file": "scenarios.py",
+      "source_location": "L59",
+      "_origin": "ast"
+    },
+    {
+      "id": "scenarios_get_scenario_comparison",
+      "label": "get_scenario_comparison()",
+      "file_type": "code",
+      "source_file": "scenarios.py",
+      "source_location": "L78",
+      "_origin": "ast"
+    },
+    {
+      "id": "scenarios_rationale_20",
+      "label": "Dependency injection for FinancialAnalysisService.",
+      "file_type": "rationale",
+      "source_file": "scenarios.py",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "scenarios_rationale_30",
+      "label": "Request scenario analysis for baseline and alternate lanes.     Implements REQ-A",
+      "file_type": "rationale",
+      "source_file": "scenarios.py",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "scenarios_rationale_64",
+      "label": "Get scenario detail with cost components.     Implements REQ-API-003: Scenario d",
+      "file_type": "rationale",
+      "source_file": "scenarios.py",
+      "source_location": "L64",
+      "_origin": "ast"
+    },
+    {
+      "id": "scenarios_rationale_85",
+      "label": "Compare baseline and alternate scenario results.     Implements REQ-API-003: Sce",
+      "file_type": "rationale",
+      "source_file": "scenarios.py",
+      "source_location": "L85",
+      "_origin": "ast"
+    }
+  ],
+  "links": [
+    {
+      "source": "init",
+      "target": "auth",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "policy_events",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "scenarios",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "agreements",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "recommendations",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "alerts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "dashboard",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "compliance",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_dependencies_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_middleware_auth_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_models_user_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_services_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_schemas_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_schemas_common_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements",
+      "target": "agreements_get_agreement_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements_get_agreement_service",
+      "target": "agreements_py_session",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements_get_agreement_service",
+      "target": "tradeagreementservice",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements",
+      "target": "agreements_get_scenario_agreement_evaluations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements_get_scenario_agreement_evaluations",
+      "target": "tradeagreementservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements_get_scenario_agreement_evaluations",
+      "target": "agreements_py_user",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements",
+      "target": "agreements_get_agreement_evaluation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements_get_agreement_evaluation",
+      "target": "tradeagreementservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements_get_agreement_evaluation",
+      "target": "agreements_py_user",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements_get_agreement_service",
+      "target": "tradeagreementservice",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements_rationale_1",
+      "target": "agreements",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements_rationale_17",
+      "target": "agreements_get_agreement_service",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements_rationale_30",
+      "target": "agreements_get_scenario_agreement_evaluations",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "agreements_rationale_51",
+      "target": "agreements_get_agreement_evaluation",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agreements.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_dependencies_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_services_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_schemas_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "alerts_get_alert_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_get_alert_service",
+      "target": "alerts_py_session",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_get_alert_service",
+      "target": "alertservice",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "alerts_list_alerts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_list_alerts",
+      "target": "alertservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "alerts_get_alert",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_get_alert",
+      "target": "alertservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "alerts_acknowledge_alert",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_acknowledge_alert",
+      "target": "acknowledgealertrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_acknowledge_alert",
+      "target": "alertservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "alerts_assign_alert",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_assign_alert",
+      "target": "assignalertrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_assign_alert",
+      "target": "alertservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "alerts_escalate_alert",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_escalate_alert",
+      "target": "escalatealertrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_escalate_alert",
+      "target": "alertservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts",
+      "target": "alerts_resolve_alert",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_resolve_alert",
+      "target": "resolvealertrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_resolve_alert",
+      "target": "alertservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_get_alert_service",
+      "target": "alertservice",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_rationale_21",
+      "target": "alerts_get_alert_service",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_rationale_35",
+      "target": "alerts_list_alerts",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_rationale_54",
+      "target": "alerts_get_alert",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_rationale_73",
+      "target": "alerts_acknowledge_alert",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_rationale_91",
+      "target": "alerts_assign_alert",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_rationale_108",
+      "target": "alerts_escalate_alert",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "alerts_rationale_126",
+      "target": "alerts_resolve_alert",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "alerts.py",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "bcrypt",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "jwt",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "app_config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "app_database",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "app_models_user",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "auth_loginrequest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_loginrequest",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "auth_userresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_userresponse",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "auth_config",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "auth_loginresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_loginresponse",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "auth_create_access_token",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_create_access_token",
+      "target": "timedelta",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "auth_verify_password",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "auth",
+      "target": "auth_login",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_login",
+      "target": "auth_loginrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_login",
+      "target": "auth_py_session",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_create_access_token",
+      "target": "timedelta",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_login",
+      "target": "auth_verify_password",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_login",
+      "target": "auth_create_access_token",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_login",
+      "target": "auth_userresponse",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_login",
+      "target": "auth_loginresponse",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_rationale_1",
+      "target": "auth",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_rationale_21",
+      "target": "auth_loginrequest",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_rationale_38",
+      "target": "auth_loginresponse",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_rationale_44",
+      "target": "auth_create_access_token",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_rationale_60",
+      "target": "auth_verify_password",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_rationale_66",
+      "target": "auth_login",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "auth.py",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_dependencies_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_services_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_schemas_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance",
+      "target": "compliance_get_compliance_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_get_compliance_service",
+      "target": "compliance_py_session",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_get_compliance_service",
+      "target": "complianceworkflowservice",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance",
+      "target": "compliance_list_compliance_reviews",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_list_compliance_reviews",
+      "target": "complianceworkflowservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance",
+      "target": "compliance_create_compliance_review",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_create_compliance_review",
+      "target": "createcompliancereviewrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_create_compliance_review",
+      "target": "complianceworkflowservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance",
+      "target": "compliance_transition_review_state",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_transition_review_state",
+      "target": "transitionreviewstaterequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_transition_review_state",
+      "target": "complianceworkflowservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance",
+      "target": "compliance_get_compliance_review",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_get_compliance_review",
+      "target": "complianceworkflowservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_get_compliance_service",
+      "target": "complianceworkflowservice",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_rationale_19",
+      "target": "compliance_get_compliance_service",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_rationale_31",
+      "target": "compliance_list_compliance_reviews",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_rationale_61",
+      "target": "compliance_create_compliance_review",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_rationale_80",
+      "target": "compliance_transition_review_state",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_rationale_103",
+      "target": "compliance_get_compliance_review",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "compliance.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_dependencies_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_services_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_schemas_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard",
+      "target": "dashboard_get_analytics_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_get_analytics_service",
+      "target": "dashboard_py_session",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_get_analytics_service",
+      "target": "analyticsservice",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard",
+      "target": "dashboard_get_exposure_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_get_exposure_summary",
+      "target": "analyticsservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard",
+      "target": "dashboard_get_trend_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_get_trend_data",
+      "target": "analyticsservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard",
+      "target": "dashboard_get_concentration_view",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_get_concentration_view",
+      "target": "analyticsservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_get_analytics_service",
+      "target": "analyticsservice",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_rationale_17",
+      "target": "dashboard_get_analytics_service",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_rationale_26",
+      "target": "dashboard_get_exposure_summary",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_rationale_42",
+      "target": "dashboard_get_trend_data",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_rationale_57",
+      "target": "dashboard_get_concentration_view",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_dependencies_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_middleware_auth_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_models_user_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_services_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_schemas_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events",
+      "target": "policy_events_get_monitoring_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_get_monitoring_service",
+      "target": "policy_events_py_session",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_get_monitoring_service",
+      "target": "monitoringservice",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events",
+      "target": "policy_events_ingest_policy_event",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_ingest_policy_event",
+      "target": "ingestpolicyeventrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_ingest_policy_event",
+      "target": "monitoringservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_ingest_policy_event",
+      "target": "policy_events_py_user",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events",
+      "target": "policy_events_list_policy_events",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_list_policy_events",
+      "target": "monitoringservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_list_policy_events",
+      "target": "policy_events_py_user",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events",
+      "target": "policy_events_get_policy_event",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_get_policy_event",
+      "target": "monitoringservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_get_policy_event",
+      "target": "policy_events_py_user",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_get_monitoring_service",
+      "target": "monitoringservice",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_rationale_1",
+      "target": "policy_events",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_rationale_21",
+      "target": "policy_events_get_monitoring_service",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_rationale_31",
+      "target": "policy_events_ingest_policy_event",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_rationale_52",
+      "target": "policy_events_list_policy_events",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "policy_events_rationale_72",
+      "target": "policy_events_get_policy_event",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "policy_events.py",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_dependencies_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_middleware_auth_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_models_user_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_services_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_schemas_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_schemas_common_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "recommendations_get_recommendation_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_get_recommendation_service",
+      "target": "recommendations_py_session",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_get_recommendation_service",
+      "target": "recommendationservice",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "recommendations_generate_recommendations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_generate_recommendations",
+      "target": "generaterecommendationsrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_generate_recommendations",
+      "target": "recommendationservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_generate_recommendations",
+      "target": "recommendations_py_user",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "recommendations_get_recommendation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_get_recommendation",
+      "target": "recommendationservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_get_recommendation",
+      "target": "recommendations_py_user",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations",
+      "target": "recommendations_disposition_recommendation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_disposition_recommendation",
+      "target": "dispositionrecommendationrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_disposition_recommendation",
+      "target": "recommendationservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_disposition_recommendation",
+      "target": "recommendations_py_user",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_get_recommendation_service",
+      "target": "recommendationservice",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_rationale_1",
+      "target": "recommendations",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_rationale_21",
+      "target": "recommendations_get_recommendation_service",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_rationale_31",
+      "target": "recommendations_generate_recommendations",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_rationale_55",
+      "target": "recommendations_get_recommendation",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "recommendations_rationale_75",
+      "target": "recommendations_disposition_recommendation",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "recommendations.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_dependencies_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_middleware_auth_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_models_user_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_services_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios",
+      "target": "app_data_projects_8ddf8f5dd330_output_84cc8cf329e8_repos_tariff_backend_app_schemas_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios",
+      "target": "scenarios_get_financial_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_get_financial_service",
+      "target": "scenarios_py_session",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_get_financial_service",
+      "target": "financialanalysisservice",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios",
+      "target": "scenarios_analyze_scenario",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_analyze_scenario",
+      "target": "scenarioanalysisrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_analyze_scenario",
+      "target": "financialanalysisservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_analyze_scenario",
+      "target": "scenarios_py_user",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios",
+      "target": "scenarios_get_scenario",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_get_scenario",
+      "target": "financialanalysisservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_get_scenario",
+      "target": "scenarios_py_user",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios",
+      "target": "scenarios_get_scenario_comparison",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_get_scenario_comparison",
+      "target": "financialanalysisservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_get_scenario_comparison",
+      "target": "scenarios_py_user",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_get_financial_service",
+      "target": "financialanalysisservice",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_rationale_20",
+      "target": "scenarios_get_financial_service",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_rationale_30",
+      "target": "scenarios_analyze_scenario",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_rationale_64",
+      "target": "scenarios_get_scenario",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "scenarios_rationale_85",
+      "target": "scenarios_get_scenario_comparison",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scenarios.py",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "auth",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "policy_events",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "scenarios",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "agreements",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "recommendations",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "alerts",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "dashboard",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "init",
+      "target": "compliance",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "__init__.py",
+      "source_location": "L9",
+      "weight": 1.0
+    }
+  ]
+}
